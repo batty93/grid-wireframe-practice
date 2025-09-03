@@ -1,0 +1,64 @@
+/* Wireframe Styles */
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #e6e6e6;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header,
+footer,
+aside,
+.main-content,
+.column {
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+header {
+    background-color: #9c27b0;
+}
+
+aside.top-aside {
+    background-color: #2196f3;
+}
+
+.main-content {
+    background-color: #4caf50;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.column {
+    background-color: #e91e63;
+}
+
+aside.bottom-aside {
+    background-color: #00bcd4;
+}
+
+footer {
+    background-color: #ff9800;
+}
